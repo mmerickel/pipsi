@@ -14,7 +14,7 @@ How do I get it?
 
 ::
 
-    curl https://raw.githubusercontent.com/mmerickel/pipsi/master/get-pipsi.py | bash -c python3 --src 'git+https://github.com/mmerickel/pipsi.git#egg=pipsi'
+    curl https://raw.githubusercontent.com/mmerickel/pipsi/master/get-pipsi.py | python3 - --src 'git+https://github.com/mmerickel/pipsi.git#egg=pipsi'
 
 How does it work?
 
